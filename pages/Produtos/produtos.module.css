@@ -1,0 +1,23 @@
+.container {
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #e50914;
+  margin-bottom: 30px;
+}
+
+.container div {
+  background: #111;
+  color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.container div:hover {
+  transform: scale(1.03);
+  background: #222;
+}
